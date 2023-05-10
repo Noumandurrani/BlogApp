@@ -7,32 +7,9 @@ import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import Courses from "./Courses";
 
 function Home() {
-  const arrCards = [1, 2, 3, 4, 5, 6, 7];
+  // const arrCards = [1, 2, 3, 4, 5, 6, 7];
   return (
     <>
-      {/* <h3>Home</h3> */}
-      {/* <div
-        className="container bg-success "
-        style={{
-          height: 480,
-          backgroundImage: `url(${Homebg})`,
-          backgroundSize: "cover",
-        }}
-      >
-        <div className="row align-items-center">
-          <div className="col-lg-6 " style={{ marginTop: 120 }}>
-            <h3>Become Master</h3>
-            <h1>Learn New Skills Online</h1>
-            <h1>Find Best Courses</h1>
-            <button className="btn btn-warning px-4">Get A Quote</button>
-            <button className="mx-2 btn btn-light px-4">Read more</button>
-          </div>
-        </div>
-      </div> */}
-      {/* <div>Home</div>
-      <div>Home</div>
-      <div>Home</div>
-      <div>Home</div> */}
       <Hmainbg></Hmainbg>
       {/* <Cards></Cards> */}
       <br></br>
@@ -45,18 +22,18 @@ function Home() {
       <br></br>
       <div className="container ">
         <div className="row mb-3">
-          <div className="col-lg-12 d-flex">
-            <div className="col-lg-4 px-2" style={{}}>
+          <div className="col-lg-12 col-md-12  col-sm-12 col-12 d-flex">
+            <div className="col-lg-4 col-sm-4 col-md-4 col-4 px-2" style={{}}>
               <Link to="/courses" style={{ textDecoration: "none" }}>
                 <Cards></Cards>
               </Link>
             </div>
-            <div className="col-lg-4   px-2">
+            <div className="col-lg-4 col-sm-4 col-md-4 col-4  px-2">
               <Link to="/courses" style={{ textDecoration: "none" }}>
                 <Cards></Cards>
               </Link>
             </div>
-            <div className="col-lg-4  px-2">
+            <div className="col-lg-4 col-sm-4 col-md-4 col-4 px-2">
               <Link to="/courses" style={{ textDecoration: "none" }}>
                 <Cards></Cards>
               </Link>
@@ -65,18 +42,18 @@ function Home() {
         </div>
         {/* //////////////////////// */}
         <div className="row mb-3">
-          <div className="col-lg-12 d-flex">
-            <div className="col-lg-4  px-2">
+          <div className="col-lg-12 col-md-12 col-sm-12 col-12 d-flex">
+            <div className="col-lg-4 col-sm-4 col-md-4 col-4 px-2">
               <Link to="/courses" style={{ textDecoration: "none" }}>
                 <Cards></Cards>
               </Link>
             </div>
-            <div className="col-lg-4 px-2">
+            <div className="col-lg-4 col-sm-4 col-md-4  col-4 px-2">
               <Link to="/courses" style={{ textDecoration: "none" }}>
                 <Cards></Cards>
               </Link>
             </div>
-            <div className="col-lg-4   px-2">
+            <div className="col-lg-4 col-sm-4 col-md-4 col-4 px-2">
               <Link to="/courses" style={{ textDecoration: "none" }}>
                 <Cards></Cards>
               </Link>
@@ -85,18 +62,18 @@ function Home() {
         </div>
         {/* /////////////////////////////// */}
         <div className="row mb-3">
-          <div className="col-lg-12 d-flex">
-            <div className="col-lg-4 px-2">
+          <div className="col-lg-12 col-md-12 col-12 col-sm-12 d-flex">
+            <div className="col-lg-4 col-sm-4 col-md-4 col-4 px-2">
               <Link to="/courses" style={{ textDecoration: "none" }}>
                 <Cards></Cards>
               </Link>
             </div>
-            <div className="col-lg-4   px-2">
+            <div className="col-lg-4  col-sm-4 col-md-4 col-4 px-2">
               <Link to="/courses" style={{ textDecoration: "none" }}>
                 <Cards></Cards>
               </Link>
             </div>
-            <div className="col-lg-4  px-2">
+            <div className="col-lg-4 col-sm-4 col-md-4 col-4 px-2">
               <Link to="/courses" style={{ textDecoration: "none" }}>
                 <Cards></Cards>
               </Link>

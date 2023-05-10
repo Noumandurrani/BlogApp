@@ -1,7 +1,6 @@
 import React from "react";
 import deswu from "./Logo/deswu.jpg";
 import crmens from "./Logo/crmens.jpg";
-// import Footer from "./AppComp/Footer";
 
 function Courses() {
   return (
@@ -223,12 +222,9 @@ function Courses() {
                 </div>
               </div>
             </div>
-
-            {/* <h3>courses</h3> */}
           </div>
         </div>
       </div>
-      {/* <Footer></Footer> */}
     </div>
   );
 }

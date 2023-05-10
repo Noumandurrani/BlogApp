@@ -6,7 +6,7 @@ function About() {
       <div className="container mt-5">
         <h1 style={{ fontFamily: "italic", fontWeight: "bold" }}>About</h1>
 
-        <p>
+        <p style={{ fontSize: 20 }}>
           In publishing and graphic design, Lorem ipsum is a placeholder text
           commonly used to demonstrate the visual form of a document or a
           typeface without relying on meaningful content. Lorem ipsum may be
@@ -15,13 +15,13 @@ function About() {
           designers to consider the form of a webpage or publication, without
           the meaning of the text influencing the design.
         </p>
-        <p>
+        <p style={{ fontSize: 20 }}>
           Lorem ipsum is typically a corrupted version of De finibus bonorum et
           malorum, a 1st-century BC text by the Roman statesman and philosopher
           Cicero, with words altered, added, and removed to make it nonsensical
           and improper Latin.
         </p>
-        <p>
+        <p style={{ fontSize: 20 }}>
           Versions of the Lorem ipsum text have been used in typesetting at
           least since the 1960s, when it was popularized by advertisements for
           Letraset transfer sheets. Lorem ipsum was introduced to the digital
