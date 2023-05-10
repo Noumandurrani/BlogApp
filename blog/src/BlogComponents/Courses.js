@@ -17,6 +17,7 @@ function Courses() {
                 height: 500,
                 backgroundImage: `url(${deswu})`,
                 backgroundSize: "cover",
+                boxShadow: "1px 1px 3px black, -1px -1px 3px black",
               }}
             ></div>
           </div>

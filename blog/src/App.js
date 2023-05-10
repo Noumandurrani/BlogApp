@@ -90,7 +90,7 @@ function App() {
               </div>
             </nav>
           </div>
-          {/* //////////////////////////////////////////////////// */}
+          {/* ////////////////////////////////Footer//////////////////// */}
 
           {/* //////////////////////////////////////////////////// */}
           <Routes>
@@ -99,10 +99,50 @@ function App() {
             <Route path="/about" element={<About></About>}></Route>
             <Route path="/courses" element={<Courses></Courses>}></Route>
           </Routes>
+          {/* //////////////////////////////Footer////////////////////// */}
+          <div
+            className="container-fluid mt-5 "
+            style={{ backgroundColor: "rgb(27, 27, 133)" }}
+          >
+            <div
+              className="container"
+              style={{ height: 130, backgroundColor: "rgb(27, 27, 133)" }}
+            >
+              <nav
+                className="navbar navbar-dark navbar-expand-lg "
+                style={{ backgroundColor: "rgb(27, 27, 133)", bottom: 0 }}
+              >
+                <div className="container-fluid">
+                  <a className="navbar-brand" href="#">
+                    <img src={llll} style={{ height: 100 }}></img>
+                  </a>
+
+                  <ul className="navbar-nav">
+                    <li className="nav-item">
+                      <Link to="/" className="nav-link">
+                        Community
+                      </Link>
+                    </li>
+                    <li className="nav-item active">
+                      <Link to="/about" className="nav-link">
+                        About
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link to="/courses" className="nav-link">
+                        Courses
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+          {/* //////////////////////////////////////////////////// */}
         </Router>
       </div>
       {/* //////////////////////////////Footer */}
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
       {/* <Router>
         <div
           className="container-fluid mt-5"
