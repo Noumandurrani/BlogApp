@@ -110,7 +110,7 @@ function App() {
             >
               <nav
                 className="navbar navbar-dark navbar-expand-lg "
-                style={{ backgroundColor: "rgb(27, 27, 133)", bottom: 0 }}
+                style={{ backgroundColor: "rgb(27, 27, 133)" }}
               >
                 <div className="container-fluid">
                   <a className="navbar-brand" href="#">

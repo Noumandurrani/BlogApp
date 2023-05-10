@@ -4,7 +4,7 @@ import deswu from "../Logo/deswu.jpg";
 function Cards() {
   return (
     <div>
-      <div className="col-lg-4 d-flex">
+      <div className="">
         <div className="card ">
           <img src={deswu}></img>
 

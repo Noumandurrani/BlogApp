@@ -6,29 +6,38 @@ import crmens from "./Logo/crmens.jpg";
 function Courses() {
   return (
     <div>
-      <div className="container">
-        <div>course detail</div>
+      <div className="container mt-5">
+        <div
+          className="text-warning"
+          style={{ fontSize: 13, fontWeight: "bold", fontFamily: "arial" }}
+        >
+          Course detail
+        </div>
         <div className="row">
           <div className="col-lg-8">
-            <h1>User Research for User Experience Design</h1>
+            <p
+              style={{ fontFamily: "italic", fontWeight: "bold", fontSize: 50 }}
+            >
+              User Research for User Experience Design
+            </p>
             <div
               className="container-fluid bg-primary"
               style={{
                 height: 500,
                 backgroundImage: `url(${deswu})`,
                 backgroundSize: "cover",
-                boxShadow: "1px 1px 3px black, -1px -1px 3px black",
+                boxShadow: "0.5px 0.5px 1px gray, -0.5px -0.5px 1px gray",
               }}
             ></div>
           </div>
           <div className="col-lg-4 ">
             <div
-              className="container-fluid bg-opacity-50 border border-dark border-opacity-25 bg-primary rounded"
+              className="container-fluid bg-opacity-50 border border-dark border-opacity-25  rounded"
               style={{
                 height: 498,
-                marginTop: 104,
+                marginTop: 167,
                 paddingTop: 20,
-                boxShadow: "1px 1px 5px black, -1px -1px 5px black",
+                boxShadow: "0.5px 0.5px 1px gray, -0.5px -0.5px 1px gray",
               }}
             >
               <div className="d-flex " style={{ height: 20, marginLeft: 15 }}>
@@ -82,10 +91,12 @@ function Courses() {
         <br></br>
         <br></br>
         <br></br>
-        <div className="row">
+        <div className="row ">
           <div className="col-lg-8">
             <div>
-              <h3>Desicription</h3>
+              <h3 style={{ fontFamily: "italic", fontWeight: "bold" }}>
+                Desicription
+              </h3>
               <p>
                 The online Master of Computer and Information Technology degree
                 (MCIT Online) is an online masters degree in Computer Science
@@ -113,7 +124,15 @@ function Courses() {
             <br></br>
 
             <div>
-              <h1 style={{ marginBottom: 23 }}>What You'll Learn?</h1>
+              <h1
+                style={{
+                  marginBottom: 23,
+                  fontFamily: "italic",
+                  fontWeight: "bold",
+                }}
+              >
+                What You'll Learn?
+              </h1>
 
               <div className="row">
                 <div className="col-lg-1">

@@ -10,7 +10,7 @@ function Home() {
   const arrCards = [1, 2, 3, 4, 5, 6, 7];
   return (
     <>
-      <h3>Home</h3>
+      {/* <h3>Home</h3> */}
       {/* <div
         className="container bg-success "
         style={{
@@ -35,22 +35,77 @@ function Home() {
       <div>Home</div> */}
       <Hmainbg></Hmainbg>
       {/* <Cards></Cards> */}
-
-      <div className="container bg-warning">
-        <div className="col-lg-3 d-inline">
-          <Link to="/courses" style={{ textDecoration: "none" }}>
-            <Cards></Cards>
-          </Link>
-          <Link to="/courses" style={{ textDecoration: "none" }}>
-            <Cards></Cards>
-          </Link>
-          <Link to="/courses" style={{ textDecoration: "none" }}>
-            <Cards></Cards>
-          </Link>
-          <Routes>
-            <Route path="/courses" element={<Courses></Courses>}></Route>
-          </Routes>
+      <br></br>
+      <h1
+        className="text-center"
+        style={{ fontFamily: "italic", fontWeight: "bolder" }}
+      >
+        Top Featured Courses
+      </h1>
+      <br></br>
+      <div className="container ">
+        <div className="row mb-3">
+          <div className="col-lg-12 d-flex">
+            <div className="col-lg-4 px-2" style={{}}>
+              <Link to="/courses" style={{ textDecoration: "none" }}>
+                <Cards></Cards>
+              </Link>
+            </div>
+            <div className="col-lg-4   px-2">
+              <Link to="/courses" style={{ textDecoration: "none" }}>
+                <Cards></Cards>
+              </Link>
+            </div>
+            <div className="col-lg-4  px-2">
+              <Link to="/courses" style={{ textDecoration: "none" }}>
+                <Cards></Cards>
+              </Link>
+            </div>
+          </div>
         </div>
+        {/* //////////////////////// */}
+        <div className="row mb-3">
+          <div className="col-lg-12 d-flex">
+            <div className="col-lg-4  px-2">
+              <Link to="/courses" style={{ textDecoration: "none" }}>
+                <Cards></Cards>
+              </Link>
+            </div>
+            <div className="col-lg-4 px-2">
+              <Link to="/courses" style={{ textDecoration: "none" }}>
+                <Cards></Cards>
+              </Link>
+            </div>
+            <div className="col-lg-4   px-2">
+              <Link to="/courses" style={{ textDecoration: "none" }}>
+                <Cards></Cards>
+              </Link>
+            </div>
+          </div>
+        </div>
+        {/* /////////////////////////////// */}
+        <div className="row mb-3">
+          <div className="col-lg-12 d-flex">
+            <div className="col-lg-4 px-2">
+              <Link to="/courses" style={{ textDecoration: "none" }}>
+                <Cards></Cards>
+              </Link>
+            </div>
+            <div className="col-lg-4   px-2">
+              <Link to="/courses" style={{ textDecoration: "none" }}>
+                <Cards></Cards>
+              </Link>
+            </div>
+            <div className="col-lg-4  px-2">
+              <Link to="/courses" style={{ textDecoration: "none" }}>
+                <Cards></Cards>
+              </Link>
+            </div>
+          </div>
+        </div>
+        <Routes>
+          <Route path="/courses" element={<Courses></Courses>}></Route>
+        </Routes>
       </div>
     </>
   );
