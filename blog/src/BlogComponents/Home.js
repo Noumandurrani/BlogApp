@@ -44,65 +44,71 @@ function Home() {
       </h1>
       <br></br>
       <div className="container ">
-        <div className="row mb-3">
-          <div className="col-lg-12 d-flex">
-            <div className="col-lg-4 px-2" style={{}}>
-              <Link to="/courses" style={{ textDecoration: "none" }}>
-                <Cards></Cards>
-              </Link>
-            </div>
-            <div className="col-lg-4   px-2">
-              <Link to="/courses" style={{ textDecoration: "none" }}>
-                <Cards></Cards>
-              </Link>
-            </div>
-            <div className="col-lg-4  px-2">
-              <Link to="/courses" style={{ textDecoration: "none" }}>
-                <Cards></Cards>
-              </Link>
-            </div>
+        <div className="row mb-3 justify-content-center">
+          {/* <div className=" d-flex"> */}
+          <div className="col-lg-4 col-md-10 col-sm-10 px-2 " style={{}}>
+            <Link to="/courses" style={{ textDecoration: "none" }}>
+              <Cards></Cards>
+            </Link>
           </div>
+          <div className="col-lg-4 col-md-10 col-sm-10 px-2">
+            <Link to="/courses" style={{ textDecoration: "none" }}>
+              <Cards></Cards>
+            </Link>
+          </div>
+          <div className="col-lg-4 col-md-10 col-sm-10 px-2">
+            <Link to="/courses" style={{ textDecoration: "none" }}>
+              <Cards></Cards>
+            </Link>
+          </div>
+          {/* </div> */}
         </div>
         {/* //////////////////////// */}
-        <div className="row mb-3">
-          <div className="col-lg-12 d-flex">
-            <div className="col-lg-4  px-2">
-              <Link to="/courses" style={{ textDecoration: "none" }}>
-                <Cards></Cards>
-              </Link>
-            </div>
-            <div className="col-lg-4 px-2">
-              <Link to="/courses" style={{ textDecoration: "none" }}>
-                <Cards></Cards>
-              </Link>
-            </div>
-            <div className="col-lg-4   px-2">
-              <Link to="/courses" style={{ textDecoration: "none" }}>
-                <Cards></Cards>
-              </Link>
-            </div>
+        <div className="row justify-content-center mb-3">
+          {/* <div className=" d-flex"> */}
+          <div className="col-lg-4 col-md-10 col-sm-10  px-2 " style={{}}>
+            <Link to="/courses" style={{ textDecoration: "none" }}>
+              <Cards></Cards>
+            </Link>
           </div>
-        </div>
-        {/* /////////////////////////////// */}
-        <div className="row mb-3">
-          <div className="col-lg-12 d-flex">
-            <div className="col-lg-4 px-2">
-              <Link to="/courses" style={{ textDecoration: "none" }}>
-                <Cards></Cards>
-              </Link>
-            </div>
-            <div className="col-lg-4   px-2">
-              <Link to="/courses" style={{ textDecoration: "none" }}>
-                <Cards></Cards>
-              </Link>
-            </div>
-            <div className="col-lg-4  px-2">
-              <Link to="/courses" style={{ textDecoration: "none" }}>
-                <Cards></Cards>
-              </Link>
-            </div>
+          <div className="col-lg-4 col-md-10 col-sm-10  px-2">
+            <Link to="/courses" style={{ textDecoration: "none" }}>
+              <Cards></Cards>
+            </Link>
           </div>
+          <div className="col-lg-4 col-md-10 col-sm-10  px-2">
+            <Link to="/courses" style={{ textDecoration: "none" }}>
+              <Cards></Cards>
+            </Link>
+          </div>
+          {/* </div> */}
         </div>
+        {/* //////////////////////// */}
+        <div className="row justify-content-center mb-3">
+          {/* <div className=" d-flex"> */}
+          <div className="col-lg-4 col-md-10 col-sm-10 px-2 " style={{}}>
+            <Link to="/courses" style={{ textDecoration: "none" }}>
+              <Cards></Cards>
+            </Link>
+          </div>
+          <div className="col-lg-4 col-md-10 col-sm-10 px-2">
+            <Link to="/courses" style={{ textDecoration: "none" }}>
+              <Cards></Cards>
+            </Link>
+          </div>
+          <div className="col-lg-4 col-md-10 col-sm-10 px-2">
+            <Link to="/courses" style={{ textDecoration: "none" }}>
+              <Cards></Cards>
+            </Link>
+          </div>
+          {/* </div> */}
+        </div>
+        {/* //////////////////////// */}
+        {/* //////////////////////// */}
+        {/* //////////////////////// */}
+
+        {/* //////////////////////// */}
+        {/* //////////////////////////////// */}
         <Routes>
           <Route path="/courses" element={<Courses></Courses>}></Route>
         </Routes>

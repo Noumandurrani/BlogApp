@@ -10,7 +10,7 @@ function Hmainbg() {
         style={{
           height: 480,
           backgroundImage: `url(${b})`,
-          backgroundSize: "cover",
+          backgroundSize: "100% 100%",
         }}
       >
         <div className="container">

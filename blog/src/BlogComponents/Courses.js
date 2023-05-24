@@ -6,36 +6,39 @@ import crmens from "./Logo/crmens.jpg";
 function Courses() {
   return (
     <div>
-      <div className="container mt-5">
-        <div
-          className="text-warning"
-          style={{ fontSize: 13, fontWeight: "bold", fontFamily: "arial" }}
-        >
-          Course detail
+      <div className="container  mt-3">
+        <div className="col-lg-8 col-md-8 col-sm-12">
+          <div
+            className="text-warning"
+            style={{ fontSize: 13, fontWeight: "bold", fontFamily: "arial" }}
+          >
+            Course detail
+          </div>
+          <p style={{ fontFamily: "italic", fontWeight: "bold", fontSize: 50 }}>
+            User Research for User Experience Design
+          </p>
         </div>
-        <div className="row">
-          <div className="col-lg-8">
-            <p
-              style={{ fontFamily: "italic", fontWeight: "bold", fontSize: 50 }}
-            >
-              User Research for User Experience Design
-            </p>
+      </div>
+      {/* //////////// */}
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-lg-8 col-md-7 col-sm-12">
             <div
-              className="container-fluid bg-primary"
+              className="container-fluid bg-primary mb-3"
               style={{
                 height: 500,
                 backgroundImage: `url(${deswu})`,
-                backgroundSize: "cover",
+                backgroundSize: "100% 100%",
                 boxShadow: "0.5px 0.5px 1px gray, -0.5px -0.5px 1px gray",
               }}
             ></div>
           </div>
-          <div className="col-lg-4 ">
+          <div className="col-lg-4 col-md-5 col-sm-12">
             <div
               className="container-fluid bg-opacity-50 border border-dark border-opacity-25  rounded"
               style={{
                 height: 498,
-                marginTop: 167,
+                // marginTop: 167,
                 paddingTop: 20,
                 boxShadow: "0.5px 0.5px 1px gray, -0.5px -0.5px 1px gray",
               }}
@@ -65,7 +68,7 @@ function Courses() {
                 <p>&nbsp;Intermediate Level</p>
               </div>
               <hr style={{}}></hr>
-              <div className="col-lg-12">
+              <div className="col-lg-12 col-md-12 col-sm-12">
                 <img
                   src={crmens}
                   alt="img"
@@ -92,7 +95,7 @@ function Courses() {
         <br></br>
         <br></br>
         <div className="row ">
-          <div className="col-lg-8">
+          <div className="col-lg-8 col-md-8 col-sm-12">
             <div>
               <h3 style={{ fontFamily: "italic", fontWeight: "bold" }}>
                 Desicription
@@ -135,13 +138,13 @@ function Courses() {
               </h1>
 
               <div className="row">
-                <div className="col-lg-1">
+                <div className="col-lg-1 col-md-1 col-sm-1">
                   <i
                     class="fa-solid fa-check text-success"
                     style={{ fontSize: 22 }}
                   ></i>
                 </div>
-                <div className="col-lg-11 ">
+                <div className="col-lg-11 col-md-11 col-sm-11">
                   <div className="container-fluid">
                     <p className="fw-bold d-inline">Ivy League Quality</p>
                     <p className="d-inline">
@@ -155,13 +158,13 @@ function Courses() {
               <br></br>
 
               <div className="row">
-                <div className="col-lg-1">
+                <div className="col-lg-1 col-md-1 col-sm-1">
                   <i
                     class="fa-solid fa-check text-success"
                     style={{ fontSize: 22 }}
                   ></i>
                 </div>
-                <div className="col-lg-11 ">
+                <div className="col-lg-11 col-md-11 col-sm-11">
                   <div className="container-fluid">
                     <p className="fw-bold d-inline">
                       Built Around Your Schedule The coursework
@@ -179,13 +182,13 @@ function Courses() {
               <br></br>
 
               <div className="row">
-                <div className="col-lg-1">
+                <div className="col-lg-1 col-md-1 col-sm-1">
                   <i
                     class="fa-solid fa-check text-success"
                     style={{ fontSize: 22 }}
                   ></i>
                 </div>
-                <div className="col-lg-11 ">
+                <div className="col-lg-11 col-md-11 col-sm-11">
                   <div className="container-fluid">
                     <p className="fw-bold d-inline">
                       Accessible Pricing The cost of the MCIT Online degle
@@ -202,13 +205,13 @@ function Courses() {
               </div>
               <br></br>
               <div className="row">
-                <div className="col-lg-1">
+                <div className="col-lg-1 col-md-1 col-sm-1">
                   <i
                     class="fa-solid fa-check text-success"
                     style={{ fontSize: 22 }}
                   ></i>
                 </div>
-                <div className="col-lg-11 ">
+                <div className="col-lg-11 col-md-11 col-sm-11">
                   <div className="container-fluid">
                     <p className="fw-bold d-inline">
                       Try before you apply Penn Engineering

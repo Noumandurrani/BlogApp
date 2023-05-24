@@ -6,7 +6,7 @@ function Cards() {
     <div>
       <div className="">
         <div className="card ">
-          <img src={deswu}></img>
+          <img src={deswu} style={{ height: "100%", width: "100%" }}></img>
 
           <div className="card-body">
             <h6 className="card-title">
