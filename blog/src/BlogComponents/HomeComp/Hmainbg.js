@@ -4,7 +4,6 @@ import b from "../Logo/b.jpg";
 function Hmainbg() {
   return (
     <>
-      {/* <div>Home Components</div> */}
       <div
         className="container bg-success mt-5 mb-5"
         style={{
@@ -28,12 +27,7 @@ function Hmainbg() {
             </div>
           </div>
         </div>
-        {/* <img src={Homebg} alt="img"></img> */}
       </div>
-      {/* <div>Home</div>
-      <div>Home</div>
-      <div>Home</div>
-      <div>Home</div> */}
     </>
   );
 }

@@ -1,7 +1,6 @@
 import React from "react";
 import deswu from "./Logo/deswu.jpg";
 import crmens from "./Logo/crmens.jpg";
-// import Footer from "./AppComp/Footer";
 
 function Courses() {
   return (
@@ -29,7 +28,7 @@ function Courses() {
                 height: 500,
                 backgroundImage: `url(${deswu})`,
                 backgroundSize: "100% 100%",
-                boxShadow: "0.5px 0.5px 1px gray, -0.5px -0.5px 1px gray",
+                boxShadow: "0.5px 0.5px 1px black, -0.5px -0.5px 1px black",
               }}
             ></div>
           </div>
@@ -37,7 +36,7 @@ function Courses() {
             <div
               className="container-fluid bg-opacity-50 border border-dark border-opacity-25  rounded"
               style={{
-                height: 498,
+                height: 500,
                 // marginTop: 167,
                 paddingTop: 20,
                 boxShadow: "0.5px 0.5px 1px gray, -0.5px -0.5px 1px gray",
@@ -137,14 +136,14 @@ function Courses() {
                 What You'll Learn?
               </h1>
 
-              <div className="row">
-                <div className="col-lg-1 col-md-1 col-sm-1">
+              <div className="row ">
+                <div className="col-lg-1 col-md-1 col-sm-1 col-1">
                   <i
                     class="fa-solid fa-check text-success"
                     style={{ fontSize: 22 }}
                   ></i>
                 </div>
-                <div className="col-lg-11 col-md-11 col-sm-11">
+                <div className="col-lg-11 col-md-11 col-sm-11 col-11">
                   <div className="container-fluid">
                     <p className="fw-bold d-inline">Ivy League Quality</p>
                     <p className="d-inline">
@@ -158,13 +157,13 @@ function Courses() {
               <br></br>
 
               <div className="row">
-                <div className="col-lg-1 col-md-1 col-sm-1">
+                <div className="col-lg-1 col-md-1 col-sm-1 col-1">
                   <i
                     class="fa-solid fa-check text-success"
                     style={{ fontSize: 22 }}
                   ></i>
                 </div>
-                <div className="col-lg-11 col-md-11 col-sm-11">
+                <div className="col-lg-11 col-md-11 col-sm-11 col-11">
                   <div className="container-fluid">
                     <p className="fw-bold d-inline">
                       Built Around Your Schedule The coursework
@@ -182,13 +181,13 @@ function Courses() {
               <br></br>
 
               <div className="row">
-                <div className="col-lg-1 col-md-1 col-sm-1">
+                <div className="col-lg-1 col-md-1 col-sm-1 col-1">
                   <i
                     class="fa-solid fa-check text-success"
                     style={{ fontSize: 22 }}
                   ></i>
                 </div>
-                <div className="col-lg-11 col-md-11 col-sm-11">
+                <div className="col-lg-11 col-md-11 col-sm-11 col-11">
                   <div className="container-fluid">
                     <p className="fw-bold d-inline">
                       Accessible Pricing The cost of the MCIT Online degle
@@ -205,13 +204,13 @@ function Courses() {
               </div>
               <br></br>
               <div className="row">
-                <div className="col-lg-1 col-md-1 col-sm-1">
+                <div className="col-lg-1 col-md-1 col-sm-1 col-1">
                   <i
                     class="fa-solid fa-check text-success"
                     style={{ fontSize: 22 }}
                   ></i>
                 </div>
-                <div className="col-lg-11 col-md-11 col-sm-11">
+                <div className="col-lg-11 col-md-10 col-sm-11 col-11">
                   <div className="container-fluid">
                     <p className="fw-bold d-inline">
                       Try before you apply Penn Engineering
@@ -226,12 +225,9 @@ function Courses() {
                 </div>
               </div>
             </div>
-
-            {/* <h3>courses</h3> */}
           </div>
         </div>
       </div>
-      {/* <Footer></Footer> */}
     </div>
   );
 }

@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import About from "./BlogComponents/About";
 import educationLogo from "./BlogComponents/Logo/educationLogo.jpg";
 import Courses from "./BlogComponents/Courses";
-import Footer from "./BlogComponents/AppComp/Footer";
+// import Footer from "./BlogComponents/AppComp/Footer";
 import llll from "./BlogComponents/Logo/llll.jpg";
 import { Navbar, NavbarBrand } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
@@ -72,6 +72,10 @@ function App() {
               // }}
             >
               <div className="container">
+                {/* <div
+                  className=""
+                  // style={{ justifyContent: "space-between" }}
+                > */}
                 <Navbar.Brand href="#" className="">
                   <img src={educationLogo} alt="img"></img>
                 </Navbar.Brand>
@@ -80,7 +84,7 @@ function App() {
                   id="basic-navbar-nav"
                   style={{ justifyContent: "end" }}
                 >
-                  <Nav className="me-auto" style={{ justifyContent: "end" }}>
+                  <Nav className="" style={{ justifyContent: "end" }}>
                     <li className="nav-item">
                       <Link to="/" className="nav-link">
                         Home
@@ -108,6 +112,7 @@ function App() {
                     </li>
                   </Nav>
                 </Navbar.Collapse>
+                {/* </div> */}
               </div>
             </Navbar>
             {/* <nav className="navbar navbar-expand-lg navbar-light fw-bold border border-success border-top-0  border-end-0  border-start-0 border-3 py-2">
